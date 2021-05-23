@@ -1,5 +1,8 @@
 <?php
 	session_start();
+	if(!isset($_SESSION[username])){
+		header("location: 1.php?act=1");
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
