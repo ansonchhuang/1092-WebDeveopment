@@ -21,9 +21,11 @@ $sql = "select * from users where username= ''OR 1=1' and password= ''OR 1=1' ";
 1. 找尋 php.ini
 
 ![image](https://user-images.githubusercontent.com/60165269/119244045-19160600-bb9f-11eb-903b-04f23643e27a.png)
+
 2. 修改 php.ini 的 upload_tmp_dir (記得把前方註解拿掉，並且確認原本所設定的 temp 資料夾是否有權限可以開啟，倘若該資料夾無法開啟，可另於其他定方建置 temp 資料夾，並且將upload_tmp_dir設置為該路徑位置 。 
 
 ![image](https://user-images.githubusercontent.com/60165269/119244052-1f0be700-bb9f-11eb-9af5-c4d067021161.png)
+
 3. 重啟 Apache
 
 ![image](https://user-images.githubusercontent.com/60165269/119244073-482c7780-bb9f-11eb-8fef-3a84cf99af69.png)
