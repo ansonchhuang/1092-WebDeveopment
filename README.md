@@ -1,6 +1,8 @@
 # 1092-WebDeveopment
 
-login and logout with Session，主要介紹登入與登出，共分為三個頁面：login.php (登入表單), index.php (後台), logout.php (登出)
+
+##login and logout with Session
+主要介紹登入與登出，共分為三個頁面：login.php (登入表單), index.php (後台), logout.php (登出)
 
 login.php 說明如何透過mysqli_real_escape_string，避免攻擊者在SQL查詢命令中夾雜惡意命令，保護資料不被更動、刪除或者竊取。
 登入後透過 session 紀錄。
